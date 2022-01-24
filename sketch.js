@@ -21,11 +21,11 @@ function draw() {
 	night = ((hour()-6)/12 > 0);
 	if (night){
 		background_color = 0;
-		h_color = color(45, 17, 22);
-		m_color = color(25, 50, 60);
-		s_color = color(242, 84, 91);
-		start_color = 30;
-		mid_color = 60;
+		h_color = color(65, 37, 52);
+		m_color = color(45, 70, 80);
+		s_color = color(202, 44, 51);
+		start_color = 50;
+		mid_color = 70;
 		end_color = 90;
 		h_font_color = 100;
 		m_font_color = 180;
@@ -52,15 +52,6 @@ function draw() {
 	text(minute(), 10, 60);
 	fill(s_font_color);
 	text(second(), 10, 90);
-
-	textSize(15);
-	textFont('Georgia');
-	fill(h_font_color);
-	text_x1 = 20;
-	text_y1 = window.innerHeight - 60;
-	text("This is a clock with light/dark mode depending on the time in the day. At night, the clock will have a whole different dark color scheme that's easier for the eyes to indicate that it's the night.", text_x1, text_y1)
-	text_y1 = window.innerHeight - 40;
-	text("I also divided the 12 boxes into three groups with slightly different colors so the user can calculate the time easier.", text_x1, text_y1)
 
 
 
