@@ -18,7 +18,7 @@ function draw() {
 	var m_font_color;
 	var s_font_color;
 
-	night = ((hour()-6)/12 > 0);
+	night = ( Math.floor((hour()-6)/12) > 0);
 	if (night){
 		background_color = 0;
 		h_color = color(65, 37, 52);
