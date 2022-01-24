@@ -8,11 +8,11 @@ Enter the demo [here](https://steven-liu48.github.io/Abstract-Clock/)
 
 ![alt text](./day.png)
 
-(Light Mode)
+(Day Mode)
 
 ![alt text](./night.png)
 
-(Dark Mode)
+(Night Mode)
 
 - I also divided each set of 12 boxes into three groups with slightly different colors so the user can calculate the time easier.
 
