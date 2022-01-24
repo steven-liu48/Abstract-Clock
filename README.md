@@ -4,13 +4,16 @@ I always believe in the design of beauty and usability. If the design looks good
 
 This is a clock with light/dark mode depending on the time in the day. At night, the clock will have a whole different dark color scheme that's easier for the eyes to indicate that it's the night.
 
-In the day:
+Light mode:
+
 ![alt text](./day.png)
 
-In the night:
+Dark mode:
+
 ![alt text](./night.png)
 
 I also divided each set of 12 boxes into three groups with slightly different colors so the user can calculate the time easier.
+
 ![alt text](./gradient.png)
 
 Enter the demo [here]()
